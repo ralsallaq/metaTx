@@ -1,7 +1,7 @@
 Acknowledgement:
 This pipeline was not possible without the help of two individuals:
 1. Elisa Margolis
-2. Jonathan Golob who also have a similar pipeline that uses dada2+pplacer but utilizes  nextflow instead of Gnu Make. In fact these two pipelines were developed in tandem and also their outputs were compared.  
+2. Jonathan Golob who also has a similar pipeline that uses dada2+pplacer but utilizes  nextflow instead of Gnu Make. In fact these two pipelines were developed in tandem and also their outputs were compared.  
 
 =====================================================================================
     
