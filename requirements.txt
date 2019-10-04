@@ -1,0 +1,23 @@
+bestRankForReads.sh:#requires:               python
+buildRefTree.sh:#requires:                   raxml
+checkpoint_seqInfo.sh:#requires              python
+cleanAlignQuery_bysample.sh:#requires        seqmagick           and  infernal
+cleanAlignRef.sh:#requires                   seqmagick           and  infernal
+combine_derep_vsearchFasta.sh:#requires      seqmagick
+combineJasons.sh:#requires                   pplacer/guppy
+createRefpkgWtables.sh:#requires:            taxtastic
+fromCleanToSeqID_RAxMLTree.sh:#requires      python
+fromCleanToStandardTitle_Query.sh:#requires  python
+fromCleanToStandardTitle.sh:#requires        python
+get_dada2_svs.sh:#requires                   R                   for  dada2          and  dada2
+get_minADCL.sh:#requires                     pplacer
+get_SeqInfoCSV.sh:#requires                  python
+get_taxa_fromTaxaDB.sh:#requires             python
+get_TaxaInfoCSV.sh:#requires                 taxtastic
+jplaceStats.sh:#requires                     python
+perform_fpd_kr_epca.sh:#requires             python              and  pplacer/guppy
+phyloPlace.sh:#requires                      python              and  pplacer
+prep_tovisualize.sh:#requires                pplacer/guppy/rppr
+tallySamplesByTaxa_keepBest.sh:#requires     python
+tallySamplesByTaxa.sh:#requires              python
+vsearch_reffasta_forQueries.sh:#requires     vsearch
