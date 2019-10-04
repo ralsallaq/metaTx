@@ -5,7 +5,7 @@ This pipeline was not possible without the help of two individuals:
 
 =====================================================================================
     
-metaT is an automated pipeline that is designed for now to run on high performance computational clusters (HPC) using LSF (bsub/IBM)
+metaTx is an automated pipeline that is designed for now to run on high performance computational clusters (HPC) using LSF (bsub/IBM)
 It uses numerous shell scripts that are designed to achieve most of the tasks in parallel on the HPC. The flow dependencies are controlled by using gnu make and automated scheduling by using a shell script that is designed specifically for make/lsf. The shell scripts including the scheduling one can be easily (hopefully) redesigned for any batch system such as slurm or torque.
 Currently the pipeline is optimized to run for 2x300 alumina pair-end reads with a primer of 20 bps or so. For other cases the script scripts/dada2_Rscript.R should be edited according to dada2 recommended settings for the specific case. 
 
@@ -17,7 +17,7 @@ module load PROGRAMNAME/PROGRAMVersion
 If it is available in user conda env then it will be called via: 
 activate=path/to/bin/activate
 source $activate PROGRAMNAME
-The scripts for metaT use the module-load track as many of the programs were installed into the HPC at St.Jude  
+The scripts for metaTx use the module-load track as many of the programs were installed into the HPC at St.Jude  
 
 ===================================================================================
 
