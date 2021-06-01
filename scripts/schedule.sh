@@ -195,8 +195,6 @@ function pipeline {
         fi
     fi
     
-    make checkpoint_queryFs
-    sleep 4
     
     out_vs=`make vsearchOut/matched_*.fasta`
     checkJoboutput "$out_vs"
